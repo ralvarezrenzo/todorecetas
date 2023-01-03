@@ -4,9 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estructura de datos</title>
+    <title>Todo Recetas</title>
 </head>
 <body>
-    
+    <div itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">Aji de Gallina</h1>
+        <span itemprop="name">How to Tie a Reef Knot</span>
+        by <span itemprop="author">John Doe</span>
+        This article has been tweeted 1203 times and contains 78 user comments.
+        <div itemprop="interactionStatistic" itemscope itemtype="https://schema.org/InteractionCounter">
+          <div itemprop="interactionService" itemscope itemid="http://www.twitter.com" itemtype="https://schema.org/WebSite">
+            <meta itemprop="name" content="Twitter" />
+          </div>
+          <meta itemprop="interactionType" content="https://schema.org/ShareAction"/>
+          <meta itemprop="userInteractionCount" content="1203" />
+        </div>
+        <div itemprop="interactionStatistic" itemscope itemtype="https://schema.org/InteractionCounter">
+          <meta itemprop="interactionType" content="https://schema.org/CommentAction"/>
+          <meta itemprop="userInteractionCount" content="78" />
+        </div>
+      </div>
 </body>
 </html>
